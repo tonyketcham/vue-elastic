@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import App from './App.vue';
-import animated from './animated';
+// import animated from './animated';
 
-Vue.use(animated);
+// Vue.use(animated);
 
 Vue.config.productionTip = false;
 

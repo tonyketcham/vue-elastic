@@ -15,6 +15,15 @@
   </main>
 </template>
 
+<script>
+  import { animated } from './animated';
+  export default {
+    components: {
+      ...animated(),
+    },
+  };
+</script>
+
 <style>
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -27,7 +36,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     line-height: 0.8;
-    place-items: end;
+    place-items: flex-end;
     font-size: 72pt;
     height: 100%;
     width: 100%;
